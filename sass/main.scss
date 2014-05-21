@@ -1,5 +1,9 @@
 // main sass stylesheet
 
+@import 'helpers/variables';
+
+@import 'helpers/mixins';
+
 @import 'base/reset';
 
 @import 'base/typography';
@@ -7,10 +11,6 @@
 @import 'components/buttons';
 
 @import 'components/navigation';
-
-@import 'helpers/variables';
-
-@import 'helpers/mixins';
 
 @import 'layout/footer';
 
